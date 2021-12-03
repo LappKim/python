@@ -19,3 +19,10 @@ print("a + b => " + str(a+b))
 # a 5번 반복
 print("a * 5 => " + str(a * 5))
 
+a.append(4)
+
+print("a => " + str(a))
+
+del a[0]
+
+print("a => " + str(a))
