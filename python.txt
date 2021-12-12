@@ -46,3 +46,47 @@ a = "Life is too short, You need python"
 
 파이썬 참고 사이트
 https://pythontutor.com/live.html
+
+
+
+변수값 swap
+a = 1
+b = 2
+
+tmp = a
+a = b
+b = tmp
+
+# 파이썬 장접!!!
+(a, b) = (b, a)
+
+
+# 제어문
+조건문, 반복문
+if 조건 :
+
+else:
+
+if 조건 :
+
+elif 조건 :
+
+else:
+
+
+for .. in    :
+
+
+while 조건 :
+
+조건식
+< , >, ==, !=, >=, <=
+and, or, not
+& (and), | (or)
+in, not in
+
+
+!!! pass
+
+
+

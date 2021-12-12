@@ -28,3 +28,19 @@ print("t3 -> {value}, address => {address}".format(value=t3, address=id(t3)))
 # 곱하기
 t4 = t1 * 3
 print("t4 -> {value}, address => {address}".format(value=t4, address=id(t4)))
+
+t1, t2 = ('python', 'life')
+
+print("t1 => " + str(t1))
+print("t2 => " + str(t2))
+
+(t1, t2) = ('python', 'life')
+
+print("t1 => " + str(t1))
+print("t2 => " + str(t2))
+
+t1 = t2 = ('python', 'life')
+
+print("t1 => " + str(t1))
+print("t2 => " + str(t2))
+
