@@ -52,10 +52,13 @@ print(print_kwargs(name = 'Kim Hyunseok', age = 47))
 
 # 결과값은 하나이다.
 def sum_and_multi(a, b):
-    return a+b, a*b
+    return a+b, a*b, a-b
 
 # 튜블로 return
-print(sum_and_multi(2, 3))
+print("sum_and_multi(2, 3) => %s" % str(sum_and_multi(2, 3)))
+print("sum_and_multi(2, 3)[0] => %s" % str(sum_and_multi(2, 3)[0]))
+print("sum_and_multi(2, 3)[1] => %s" % str(sum_and_multi(2, 3)[1]))
+print("sum_and_multi(2, 3)[2] => %s" % str(sum_and_multi(2, 3)[2]))
 
 # argument의 default value
 def say_myself(name, old, man=True):
@@ -67,3 +70,5 @@ def say_myself(name, old, man=True):
         print("여자입니다.")
 
 say_myself('김현석', 47)
+say_myself(name='김현석', old=47)
+say_myself(old=47, name='김현석', man=False)
